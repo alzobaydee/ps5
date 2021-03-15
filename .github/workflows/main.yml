@@ -8,6 +8,6 @@ jobs:
   anti-matter:
     runs-on: windows-2019
     steps:
-      - name: powershell table
-        run: $PSVersionTable
+      - name: powershell version
+        run: (Get-Host).version
         shell: pwsh
