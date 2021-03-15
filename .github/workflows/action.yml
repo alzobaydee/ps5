@@ -9,4 +9,3 @@ jobs:
     steps:
       - name: powershell version
         run: (Get-Host).version
-        shell: pwsh
