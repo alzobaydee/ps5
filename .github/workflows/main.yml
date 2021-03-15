@@ -10,4 +10,4 @@ jobs:
     steps:
       - name: powershell table
         run: $PSVersionTable
-        shell: pwsh
+        shell: powershell
