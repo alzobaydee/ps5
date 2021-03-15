@@ -1,0 +1,12 @@
+name: ps5
+
+on:
+  push:
+
+jobs:
+  anti-matter:
+    runs-on: windows-2019
+    steps:
+      - name: powershell version
+        run: (Get-Host).version
+        shell: pwsh
