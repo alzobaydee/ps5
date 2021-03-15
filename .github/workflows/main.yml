@@ -8,4 +8,4 @@ jobs:
     runs-on: windows-2019
     steps:
       - name: powershell table
-        run: powershell.exe -Version 5.0 (Get-Host).version
+        run:  (Get-Host).version
