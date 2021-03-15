@@ -8,4 +8,5 @@ jobs:
     runs-on: windows-2019
     steps:
       - name: powershell table
-        run:  (Get-Host).version
+        run: $PSVersionTable
+        shell: pwsh
