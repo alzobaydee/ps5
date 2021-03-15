@@ -10,3 +10,7 @@ jobs:
       - name: powershell version
         run: (Get-Host).version
         shell: pwsh
+      
+      - name: powershell table
+        run: $PSVersionTable
+        shell: pwsh
