@@ -8,5 +8,7 @@ jobs:
   anti-matter:
     runs-on: windows-2019
     steps:
+      - name: Adding markdown
+        run: echo '### check the table version! :rocket:' >> $GITHUB_STEP_SUMMARY
       - name: powershell version
         run: $PSVersionTable
